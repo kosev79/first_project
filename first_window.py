@@ -24,9 +24,9 @@ def play_martingale(*, starting_funds: int, min_bet: int, max_bet: int) -> int:
             current_bet = min_bet
         else:
             current_bet *= 2
-            if current_bet > max_bet:
-                current_bet = min_bet
             if current_bet > current_funds:
+                current_bet = min_bet
+            if current_bet > max_bet:
                 current_bet = current_funds
 
     return steps_to_loose
