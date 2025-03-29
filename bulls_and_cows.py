@@ -55,7 +55,7 @@ while True:
     else:
         cows_str = "Коровы"
         
-    print(f'В вашем числе {bulls} {bulls_str} и {cows} {cows_str}')
+    print(f"В вашем числе {bulls} {bulls_str} и {cows} {cows_str}")
     print()
     
     bulls = 0
