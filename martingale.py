@@ -1,3 +1,4 @@
+# Мартингейл
 import random
 
 HEADS = 'heads'

@@ -1,3 +1,4 @@
+# Игра "Быки" и "Коровы"
 import random
 
 def get_four_digits_number():
@@ -43,19 +44,19 @@ while True:
     
     if bulls == 1:
         bulls_str = "Бык"
-    elif bulls < 1:
+    elif bulls == 0:
         bulls_str = "Быков"
     else:
         bulls_str = "Быка"
         
     if cows == 1:
         cows_str = "Корова"
-    elif cows <1:
+    elif cows == 0:
         cows_str = "Коров"
     else:
         cows_str = "Коровы"
         
-    print(f'В вашем числе {bulls} {bulls_str} и {cows} {cows_str}')
+    print(f"В вашем числе {bulls} {bulls_str} и {cows} {cows_str}")
     print()
     
     bulls = 0
@@ -66,7 +67,7 @@ attempts_str = str()
 
 if attempts == 1:
     attempts_str = 'попытку'
-elif attempts > 1 and attempts <= 4:
+elif  1 < attempts <= 4:
     attempts_str = 'попытки'
 else:
     attempts_str = 'попыток'
