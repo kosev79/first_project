@@ -1,4 +1,9 @@
 {
     "files.autoSave": "onFocusChange",
-    "python.terminal.activateEnvInCurrentTerminal": true
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "editor.formatOnSave": true,
+    "python.formating.provider": "black",
+    "python.linting.enable": true,
+    "python.linting.pylintEnable": false,
+    "python.linting.flake8Enable": true, 
 }
