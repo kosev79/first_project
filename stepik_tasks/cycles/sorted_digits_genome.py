@@ -1,22 +1,25 @@
-# genome = input()
+# компрессия генома в укороченный вариант
+# пример:  на входе aaaccddddb
+# на выходе a3c2d4b
 
-# i = 0
-# new_genome =""
+genome = input()
 
-# while i < len(genome):
-#     current_char = genome[i]
-#     count = 1
-#     while i + 1 < len(genome) and genome[i + 1] == current_char:
-#         count += 1
-#         i += 1
-#     new_genome += f"{current_char}{count if count > 1 else '1'}"
-#     i += 1
+i = 0
+new_genome = ""
 
-# print(new_genome)
+while i < len(genome):
+    current_char = genome[i]
+    count = 1
+    while i + 1 < len(genome) and genome[i + 1] == current_char:
+        count += 1
+        i += 1
+    new_genome += f"{current_char}{count if count > 1 else '1'}"
+    i += 1
 
-# СОРТИРОВКА ЦИФР С ОТБРАСЫВАНИЕМ 0 В КОНЕЦ СПИСКА
+print(new_genome)
 
-number = input()
+
+number = input()  # СОРТИРОВКА ЦИФР С ОТБРАСЫВАНИЕМ 0 В КОНЕЦ СПИСКА
 
 new_number = []
 zero_list = []

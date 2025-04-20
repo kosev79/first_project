@@ -1,3 +1,6 @@
+# получаем из файла сжатую строку
+# разворачивваем ее(декомпрессия)
+# результат декомпрессии записываем в файл text2.txt
 path = r"C:\Git_repository\first_project\stepik_tasks\dataset_3363_2.txt"
 with open(path, "r") as inf:
     genome = inf.readline().strip()

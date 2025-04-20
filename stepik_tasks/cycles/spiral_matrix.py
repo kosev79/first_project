@@ -1,3 +1,5 @@
+# Выведите таблицу размером n x n
+#  заполненную числами от 1 до n*2 по спирали
 n = int(input())
 
 matrix = [[0 for _ in range(n)] for _ in range(n)]

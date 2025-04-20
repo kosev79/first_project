@@ -1,3 +1,5 @@
+# Таблица умножения
+# на вход подаются 4 числа которые будут являться границами таблицы умножения
 a = int(input())
 b = int(input())
 c = int(input())
@@ -11,4 +13,4 @@ for i in range(a, (b + 1)):
     print(i, end="\t")
     for j in range(c, (d + 1)):
         print((i * j), end="\t")
-    print()    
+    print()
