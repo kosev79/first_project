@@ -1,5 +1,5 @@
-import os
 import sys
+import os
 
 python_path = os.path.dirname(sys.executable)
 
