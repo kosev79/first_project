@@ -10,7 +10,7 @@
 # В качестве ответа на задание прикрепите полученный файл со средними оценками по каждому ученику
 # и одной строкой со средними оценками по трём предметам.
 
-path = r"C:\Git_repository\first_project\stepik_tasks\dataset_3363_42.txt"
+path = r"C:\Git_repository\first_project\stepik_tasks\func_dict\dataset_3363_42.txt"
 
 grade_book = []
 average_student_grade = []
